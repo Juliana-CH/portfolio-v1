@@ -1,20 +1,19 @@
 import { useState } from "react";
 import Menu from "../components/menu/Menu";
-import About from "../views/about/About";
-import Contact from "../views/contact/Contact";
 import Cover from "../views/cover/Cover";
+import About from "../views/about/About";
 import Skills from "../views/skills/Skills";
 import TimeLine from "../views/timeline/TimeLine";
 import SideImage from "../components/sideimage/SideImage";
+import Contact from "../views/contact/Contact";
 import './App.scss';
 
 function App() {
-  //const [count, setCount] = useState(0)
 
   return (
     <>
       <Menu />
-      <SideImage />
+      <SideImage imgSrc="" imgAlt="" />
       <About />
       <Contact />
       <Cover />
