@@ -6,6 +6,7 @@ import Skills from "../views/skills/Skills";
 import TimeLine from "../views/timeline/TimeLine";
 import SideImage from "../components/sideimage/SideImage";
 import Contact from "../views/contact/Contact";
+import Projects from "../views/projects/Projects";
 import './App.scss';
 
 function App() {
@@ -14,11 +15,12 @@ function App() {
     <>
       <Menu />
       <Cover />
-      <SideImage imgSrc="" imgAlt="" />
       <About />
-      <Contact />
       <Skills />
       <TimeLine />
+      <Projects />
+      <SideImage imgSrc="" imgAlt="" />
+      <Contact />
     </>
   );
 }

@@ -1,3 +1,16 @@
-.h1 {
-    color: red;
+@import "../../scss/titles";
+
+#aboutme {
+    padding: var(--padding-size-h);
+    padding-bottom: var(--padding-size-v);
+
+    .aboutme-text {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        color: var(--first-font-color);
+        columns: 2;
+        column-gap: 2rem;
+        font-size: var(--font-s);
+        font-weight: 300;
+    }
 }

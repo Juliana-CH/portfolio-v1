@@ -1,0 +1,54 @@
+@import "../../scss/titles";
+
+#skills {
+    padding: var(--padding-size-h);
+    padding-bottom: var(--padding-size-v);
+    background-color: var(--second-color);
+
+    .skills-container {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        color: var(--first-font-color);
+        font-size: var(--font-s);
+        font-weight: 300;
+    }
+
+    .each-skill-container {
+        padding: 1rem;
+
+        .testimony-author {
+            font-style: italic;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .other-skills-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color: var(--support-first-color);
+
+        .skill-item {
+            display: flex;
+            justify-content: center;
+            flex-basis: calc(300px - 2px);
+            flex-shrink: 1;
+            flex-grow: 1;
+            border-bottom: 1px solid var(--third-color);
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    .cta {
+        text-align: center;
+        padding: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .center-btn {
+        text-align: center;
+    }
+        
+}

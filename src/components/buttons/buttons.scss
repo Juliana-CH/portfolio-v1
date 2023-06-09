@@ -6,7 +6,7 @@
     border-radius: 5px;
     text-align: center;
     font-weight: 900;
-    box-shadow: 0 3px 3px 0 var(--first-font-color);
+    box-shadow: 0 0 1em var(--third-color-assistant);
     width: 12rem;
     height: 3rem;
 }
@@ -23,4 +23,13 @@
     box-shadow: 0 3px 3px 0 var(--first-font-color);
     width: 12rem;
     height: 3rem;
+}
+
+.show-menu {
+    background-color: var(--third-color-assistant);
+    color: var(--first-color);
+    letter-spacing: 1px;
+    font-weight: 700;
+    box-shadow: 0 0 .5em var(--third-color-assistant);
+
 }

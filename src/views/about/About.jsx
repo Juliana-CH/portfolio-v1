@@ -4,9 +4,11 @@ import "./about.scss";
 function About() {
     return (
         <>
-        <section className="aboutme">
+        <section id="aboutme">
+            <div className="title-container">
             <h2 className="titles-first-word">Sobre<span className="titles-second-word">mim</span></h2>
-            <p>
+            </div>
+            <p className="aboutme-text">
                 Sou brasileira e atualmente vivo em Valencia, Espanha. 
                 Sou casada com João, meu parceiro de vida e mãe da Maria Antônia 
                 e do Romeo, que me ensinam diariamente sobre amor.
