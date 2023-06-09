@@ -13,10 +13,10 @@ function App() {
   return (
     <>
       <Menu />
+      <Cover />
       <SideImage imgSrc="" imgAlt="" />
       <About />
       <Contact />
-      <Cover />
       <Skills />
       <TimeLine />
     </>
