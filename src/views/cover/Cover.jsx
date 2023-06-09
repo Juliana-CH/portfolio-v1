@@ -9,7 +9,7 @@ function Cover() {
         <section className="hello">
             <div className="cover-presentation">
                 <h1>
-                    <span className="salutation"> <Salutation /></span> EU SOU JULIANA HAZIM.
+                    <span className="salutation"> <Salutation /></span> EU SOU JULIANA
                 </h1>
             </div>
 
