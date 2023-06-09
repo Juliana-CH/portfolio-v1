@@ -2,6 +2,7 @@
 
     //Colors
     --first-color: #5362E6;
+    --support-first-color: #3C4DE4;
     --second-color: #E9EBFE;
     --third-color: #DB9E02;
     --third-color-assistant: #D9C186;
@@ -9,11 +10,19 @@
     --first-font-color: #2A363B;
     --second-font-color: #DDE0FA;
 
-    //Fonts
+    //Font-size
     --font: 'Sofia Sans';
     --font-xs: 12px;
     --font-s: 18px;
     --font-m: 24px;
     --font-l: 30px;
     --font-xl: 36px;
+
+    //Font-weight
+    --bold: 500;
+    --xbold: 700;
+    --xxbold: 900;
+
+    //Section Titles 
+
 }
