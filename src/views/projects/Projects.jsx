@@ -13,7 +13,7 @@ function Projects() {
             <div className="projects-content">
 
                 <div className="project1-content">
-                    <SideImageContent 
+                    <SideImageContent
                     imgAlt="Gatito Fofito"
                     imgSrc="https://comunidad.retorn.com/wp-content/uploads/cache/2018/09/gatitos/3008811440.jpg">
                     </SideImageContent>
