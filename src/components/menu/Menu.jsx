@@ -15,7 +15,7 @@ function Menu() {
         <div className="header-content">
           <div className="profile-container">
             <img className="profile-image" src="./src/assets/images/Juliana.png" alt="Imagem pequena de perfil."/>
-            <span className="profile-name">JULIANA </span><span className="space"> </span><span className="profile-name"> HAZIM</span>
+            <span className="profile-name">JULIANA </span><span className="space">-</span><span className="profile-name"> HAZIM</span>
           </div>
           <div className="menu-content">
           <nav className={`menu ${showMobileMenu ? "menu--show" : ""}`}>

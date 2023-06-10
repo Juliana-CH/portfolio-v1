@@ -17,8 +17,6 @@
     display: flex;
     align-items: center;
     transition: color 0.2s;
-    //justify-content: flex-start;
-    //height: auto;
   }
 
     .profile-image {
@@ -38,6 +36,10 @@
       font-weight: 700;
     }
 
+    .space {
+      color: var(--first-color);  
+    }
+
   .menu-content {
     display: flex;
   }
@@ -46,6 +48,7 @@
     display: flex;
     width: 100vw;
     justify-content: center;
+    text-transform: uppercase;
 
       a {
         display: inline-block;
@@ -60,7 +63,7 @@
         display: none;
       }
 
-  
+
 
       @media (max-width: 600px) {
         position: fixed;

@@ -29,4 +29,28 @@
     --padding-size-h: 2rem;
     --padding-size-v: 4rem; 
 
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    //Others optimizing config
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+  
+  
+    body {
+        margin: 0;
+        display: flex;
+        place-items: center;
+        min-width: 320px;
+        min-height: 100vh;
+    }
+    
+    h1 {
+        font-size: var(--font-xxl);
+        line-height: 1.1;
+    }
+
 }
