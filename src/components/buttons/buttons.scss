@@ -1,44 +1,52 @@
-.btn-cta {
-    background-color: var(--third-color);
-    display: inline-block;
-    color: var(--support-first-color);
-    letter-spacing: 1px;
-    border-radius: 5px;
-    text-align: center;
+button {
+    cursor: pointer;
+    border: none;
     font-weight: 900;
-    box-shadow: 0 0 .5em var(--third-color-assistant);
-    width: 12rem;
-    height: 3rem;
-
-    &:hover {
-        background-color: var(--third-color-assistant);
-        border: none;
-}}
-
-
-.btn-blue {
-    background-color: var(--support-first-color);
-    display: inline-block;
-    color: var(--fourth-color);
-    letter-spacing: 1px;
-    border-radius: 5px;
-    text-align: center;
-    font-weight: 900;
-    box-shadow: 0 3px 3px 0 var(--first-font-color);
-    width: 12rem;
-    height: 3rem;
     transition: background-color 0.3s ease-in-out;
-
-    &:hover {
-    background-color: var(--bg-hover);
-    border: none
-}}
-
-.show-menu {
-    background-color: var(--third-color-assistant);
-    color: var(--first-color);
-    letter-spacing: 1px;
-    font-weight: 700;
-    box-shadow: 0 0 .5em var(--third-color-assistant);
-
+    font-size: var(--font-s);
 }
+
+
+    .btn-cta {
+        background-color: var(--third-color);
+        display: inline-block;
+        color: var(--support-first-color);
+        letter-spacing: 1px;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0 0 .5em var(--third-color-assistant);
+        width: 12rem;
+        height: 3rem;
+
+        &:hover {
+            background-color: var(--third-color-assistant);
+        }
+    }
+
+
+    .btn-blue {
+        background-color: var(--support-first-color);
+        display: inline-block;
+        color: var(--fourth-color);
+        letter-spacing: 1px;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0 3px 3px 0 var(--first-font-color);
+        width: 12rem;
+        height: 3rem;
+
+        &:hover {
+        background-color: var(--bg-hover);
+        }
+    }
+
+    .show-menu {
+        background-color: var(--third-color-assistant);
+        color: var(--first-color);
+        letter-spacing: 1px;
+        box-shadow: 0 0 .5em var(--third-color-assistant);
+        border-radius: 5px;
+        font-size: var(--font-xs);
+        width: 4rem;
+        height: 2rem;
+    }   
