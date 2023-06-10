@@ -38,4 +38,5 @@ SideImageContent.propTypes = {
   imgWrapperClassName: PropTypes.string,
 };
 
+
 export default SideImageContent;

@@ -1,0 +1,26 @@
+.footer-container {
+background-color: var(--support-first-color);
+color: var(--second-font-color);
+height: 7rem;
+display: flex;
+justify-content: space-between;
+columns: 2;
+padding-right: 3rem;
+padding-left: 3rem;
+padding-bottom: 2rem;
+
+    .footer-social {
+    text-align: end;
+    font-size: var(--font-s);
+    justify-content: center;
+    }
+
+    .footer-legal {
+    text-align: end;
+    font-size: var(--font-s);
+    justify-content: center;
+    align-items: flex-end;
+    line-height: .2rem;
+    padding-top: 1rem;
+    }
+}

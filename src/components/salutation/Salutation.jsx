@@ -15,7 +15,7 @@ const Salutation = () => {
         if (message === 0) {
           return 'HELLO!';
         } else if (message === 1) {
-          return 'HOLA!';
+          return '¡HOLA!';
         } else {
           return 'OI!';
         }

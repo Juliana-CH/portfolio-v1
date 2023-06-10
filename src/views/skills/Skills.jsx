@@ -31,9 +31,6 @@ function Skills() {
 
                 <div className="other-skills-container">
                     <div className="skill-item">
-                        <h3>Colaboração</h3>
-                    </div>
-                    <div className="skill-item">
                         <h3>Entusiasmo</h3>
                     </div>
                     <div className="skill-item">
@@ -54,10 +51,11 @@ function Skills() {
                 </div>
 
                 <div className="cta">
-                <p>Adoraria compartilhar minhas experiências, vamos conversar?</p>
+                    <p>Adoraria compartilhar minhas experiências, vamos conversar?</p>
                 </div>
+                
                 <div className="center-btn">
-                <button className="btn-cta">CONTATO</button>
+                    <button className="btn-cta">CONTATO</button>
                 </div>
                 
             </div>

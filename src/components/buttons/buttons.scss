@@ -6,10 +6,14 @@
     border-radius: 5px;
     text-align: center;
     font-weight: 900;
-    box-shadow: 0 0 1em var(--third-color-assistant);
+    box-shadow: 0 0 .5em var(--third-color-assistant);
     width: 12rem;
     height: 3rem;
-}
+
+    &:hover {
+        background-color: var(--third-color-assistant);
+        border: none;
+}}
 
 
 .btn-blue {
@@ -23,7 +27,12 @@
     box-shadow: 0 3px 3px 0 var(--first-font-color);
     width: 12rem;
     height: 3rem;
-}
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+    background-color: var(--bg-hover);
+    border: none
+}}
 
 .show-menu {
     background-color: var(--third-color-assistant);
