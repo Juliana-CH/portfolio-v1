@@ -10,10 +10,26 @@
     font-size: var(--font-xl);
 }
 
-.titles-second-word{
+.titles-second-word {
     color: var(--third-color);
     text-transform: lowercase;
     font-weight: 300;
     text-align: center;
-    font-size: var(--font-xl)
+    font-size: var(--font-m)
+}
+
+.titles-first-word-projects { //className único, em função da ordem das palavras.
+    color: var(--first-color);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: var(--font-m);
+}
+
+.titles-second-word-projects { //className único, em função da ordem das palavras.
+    color: var(--third-color);
+    text-transform: lowercase;
+    font-weight: 300;
+    text-align: center;
+    font-size: var(--font-l)
 }

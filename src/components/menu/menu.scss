@@ -42,6 +42,7 @@
 
   .menu-content {
     display: flex;
+    
   }
 
     .menu {
@@ -49,10 +50,15 @@
     width: 100vw;
     justify-content: center;
     text-transform: uppercase;
+    margin-left: 4rem;
 
       a {
         display: inline-block;
         color: var(--second-font-color);
+        padding-right: 3rem;
+        padding-top: .5rem;
+        text-decoration: none;
+        text-align: center;
 
         &:hover {
           box-shadow: inset 0px 4px 0px 0px var(--third-color); //Efeito do mouse no link do menu

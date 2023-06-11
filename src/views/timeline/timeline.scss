@@ -6,27 +6,59 @@
     font-family: 'Sofia Sans';
 }
   
-  .timeline-year { //css-ymt5it-MuiTypography-root-MuiTimelineOppositeContent-root
-    font-weight: bold;
+  .timeline-year {
     font-size: var(--font-m);
     color: var(--first-color);
+    font-weight: 900;
+    font-family: 'Sofia Sans';
   }
-
   
-  .timeline-item-dot { //css-v6mo1y-MuiTimelineDot-root
+  .timeline-item-dot {
     color: var(--first-color);
   }
   
   .timeline-item-text {
-    display: flex;
+    display: inline-block;
     align-items: center;
-    font-size: var(--font-s);
+    font-size: var(--font-xs);
   }
   
-  .timeline-skills-item {
-    display: inline-block;
-    font-weight: bold;
-    font-size: var(--font-m);
+  .timeline-skills {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: var(--font-xs);
     margin-right: 1rem;
+    justify-content: flex-start;
+  }
+
+  .timeline-skills-opposite {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: var(--font-xs);
+    margin-right: .4rem;
+    margin-top: .4rem;
+    justify-content: flex-end;
+  }
+
+  .timeline-skills-item {
+    background-color: var(--first-font-color);
+    color: var(--fourth-color);
+    margin-right: .4rem;
+    margin-top: .4rem;
+    border: none;
+    border-radius: 5px;
+    padding: .2rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    font-weight: 400;
+  }
+
+  .timeline-skills-item-2022 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: var(--font-xs);
+    margin-right: 1rem;
+    width: 60%; /* width: para dividir em colunas */
+    justify-content: flex-end;
   }
   

@@ -13,12 +13,12 @@
 
     //Font-size
     --font: 'Sofia Sans';
-    --font-xs: 12px;
-    --font-s: 18px;
-    --font-m: 24px;
-    --font-l: 30px;
-    --font-xl: 36px;
-    --font-xxl: 54px;
+    --font-xs: .75em; // 12px - .75em
+    --font-s: 1.125em; // 18px - 1.125em
+    --font-m: 1.5em; // 24px - 1.5em
+    --font-l: 1.875em; // 30px - 1.875em
+    --font-xl: 2.25em; // 36px - 2.25em
+    --font-xxl: 3.375em; // 54px - 3.375em
 
     //Font-weight
     --bold: 500;

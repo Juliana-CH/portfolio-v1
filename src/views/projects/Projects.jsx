@@ -6,7 +6,7 @@ function Projects() {
         <section id="projects">
 
             <div className="title-container">
-                <h2 className="titles-second-word">Meus<span className="titles-first-word">Projetos</span></h2>
+                <h2 className="titles-second-word-projects">Meus<span className="titles-first-word-projects">Projetos</span></h2>
             </div>
 
             <div className="side-image-content">
