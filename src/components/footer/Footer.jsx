@@ -10,16 +10,16 @@ function Footer() {
 
                     <h5 className="form-title">CONTATO</h5>
 
-                    <label for="">Nome</label>
-                    <input type="text" placeholder="John Doe"></input>
+                    <label htmlFor="name">Nome</label>
+                    <input id="name" type="text" placeholder="John Doe"></input>
 
-                    <label for="">E-mail</label>
-                    <input type="email" placeholder="john@doe.com"></input>
+                    <label htmlFor="email">E-mail</label>
+                    <input id="email" type="email" placeholder="john@doe.com"></input>
 
-                    <label for="">Mensagem</label>
-                    <input className="message-container" type="text" placeholder="Sua mensagem aqui."></input>
+                    <label htmlFor="message">Mensagem</label>
+                    <input id="message" className="message-container" type="text" placeholder="Sua mensagem aqui."></input>
                     <div>
-                        <button class="send-btn">Enviar</button>
+                        <button className="send-btn">Enviar</button>
                     </div>
 
                 </form>

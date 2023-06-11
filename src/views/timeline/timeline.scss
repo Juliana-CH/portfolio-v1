@@ -3,4 +3,30 @@
 #time-line {
     padding: var(--padding-size-h);
     padding-bottom: var(--padding-size-v);
+    font-family: 'Sofia Sans';
 }
+  
+  .timeline-year { //css-ymt5it-MuiTypography-root-MuiTimelineOppositeContent-root
+    font-weight: bold;
+    font-size: var(--font-m);
+    color: var(--first-color);
+  }
+
+  
+  .timeline-item-dot { //css-v6mo1y-MuiTimelineDot-root
+    color: var(--first-color);
+  }
+  
+  .timeline-item-text {
+    display: flex;
+    align-items: center;
+    font-size: var(--font-s);
+  }
+  
+  .timeline-skills-item {
+    display: inline-block;
+    font-weight: bold;
+    font-size: var(--font-m);
+    margin-right: 1rem;
+  }
+  
