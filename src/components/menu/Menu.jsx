@@ -28,7 +28,7 @@ function Menu() {
             </button>
           </nav>
             <button className="show-menu" onClick={handleShowMenuClick}>
-              Menu
+              menu
             </button>
             </div>
         </div>

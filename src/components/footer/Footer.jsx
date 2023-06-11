@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer className="footer-container">
 
-            <div className="footer-subcontainer">
+            <div className="footer-container-upper">
 
                 <form action="#"> {/* buscar solução para receber direto no meu email */}
 
@@ -18,34 +18,36 @@ function Footer() {
 
                     <label for="">Mensagem</label>
                     <input className="message-container" type="text" placeholder="Sua mensagem aqui."></input>
-
-                    <button class="show-menu">Enviar!</button>
+                    <div>
+                        <button class="send-btn">Enviar</button>
+                    </div>
 
                 </form>
+            
 
-            </div>
+                <ul className="footer-social">
+                    <a className="rrss" href="https://www.linkedin.com/in/julianachraim/">
+                        <li className="linkedin">
+                            LinkedIn
+                        </li>
+                    </a>
 
-            <div className="footer-subcontainer-h">
-                <ul className="footer-social">SOCIAL
-                    <li className="linkedin">
-                    <a href="https://www.linkedin.com/in/julianachraim/">LinkedIn</a>
-                    </li>
-                    <li className="github">
-                    <a href="https://github.com/Juliana-CH">GitHub</a>
-                    </li>
+                    <a className="rrss" href="https://github.com/Juliana-CH">
+                        <li className="github">
+                            GitHub
+                        </li>
+                    </a>
                 </ul>
-            
-                
+
+                <div className="footer-container-down">
+
+                    <div className="footer-legal">
+                        <h5>Copywright &copy; 2023, Juliana Hazim</h5>
+                    </div>
+                </div>
+
             </div>
 
-            <div className="footer-subcontainer-h">
-                <div className="footer-legal">
-                    <h5>Avisos Legais</h5>
-                    <h5>Cookies</h5>
-                    <h5>@Copywright 2023. Made by Juliana Chraim Hazim</h5>
-                </div>
-            </div>
-            
         </footer>
     );
 }

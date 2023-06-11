@@ -49,4 +49,17 @@ button {
         font-size: var(--font-xs);
         width: 4rem;
         height: 2rem;
-    }   
+    } 
+    
+    .send-btn {
+        background-color: var(--third-color-assistant);
+        color: var(--first-color);
+        letter-spacing: 1px;
+        box-shadow: 0 0 .5em var(--third-color-assistant);
+        border-radius: 5px;
+        font-size: var(--font-xs);
+        width: 8rem;
+        height: 2rem;
+        text-transform: uppercase;
+        margin-top: 1rem;
+    } 
