@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import "../footer/footer.scss";
 
 function Footer() {
@@ -26,15 +28,15 @@ function Footer() {
             
 
                 <ul className="footer-social">
-                    <a className="rrss" href="https://www.linkedin.com/in/julianachraim/">
+                    <a className="rrss" href="https://www.linkedin.com/in/julianachraim/" target="blank">
                         <li className="linkedin">
-                            LinkedIn
+                            <FontAwesomeIcon icon={faLinkedin} size="2x"/>
                         </li>
                     </a>
 
-                    <a className="rrss" href="https://github.com/Juliana-CH">
+                    <a className="rrss" href="https://github.com/Juliana-CH" target="blank">
                         <li className="github">
-                            GitHub
+                            <FontAwesomeIcon icon={faGithub} size="2x"/>
                         </li>
                     </a>
                 </ul>

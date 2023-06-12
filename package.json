@@ -11,6 +11,10 @@
   },
   "dependencies": {
     "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.1.19",
     "@mui/lab": "^5.0.0-alpha.133",
     "@mui/styled-engine": "^5.13.2",
     "@mui/styles": "^5.13.2",

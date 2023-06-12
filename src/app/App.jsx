@@ -6,7 +6,6 @@ import About from "../views/about/About";
 import Skills from "../views/skills/Skills";
 import TimeLine from "../views/timeline/TimeLine";
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import SideImage from "../components/sideimage/SideImage";
 import Projects from "../views/projects/Projects";
 import './App.scss';
 
@@ -20,7 +19,6 @@ function App() {
       <Skills />
       <TimeLine />
       <Projects />
-      <SideImage imgSrc="" imgAlt="" />
       <Footer />
     </>
   );

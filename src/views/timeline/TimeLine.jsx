@@ -7,6 +7,8 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import { makeStyles } from '@mui/styles';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import "./timeline.scss";
 
 const useStyles = makeStyles({
@@ -126,7 +128,9 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            <p><strong>Casamento</strong> com João.</p>
+            <p><strong>Casamento</strong> com João. 
+            <FontAwesomeIcon icon={faHeart} className="heart-icon"/>
+            </p>
             <p><strong>Promovida à Executiva de Contas</strong> no maior canal de televisão do Brasil (TV Globo), 
                 filial Santa Catarina, Brasil.</p>
             <div className="timeline-skills">
@@ -169,7 +173,9 @@ export default function OppositeContentTimeline() {
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
             <p>Apoio na abertura de uma agência de publicidade, mantendo meu negócio.</p>
-            <p><strong>Nascimento da minha filha</strong>, Maria Antônia.</p>
+            <p><strong>Nascimento da minha filha</strong>, Maria Antônia.
+            <FontAwesomeIcon icon={faHeart} className="heart-icon"/>
+            </p>
             <div className="timeline-skills">
                 <h2 className="timeline-skills-item">Plano de Negócios</h2>
             </div>
@@ -223,7 +229,9 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            <p><strong>Nascimento do meu filho</strong>, Romeo.</p>
+            <p><strong>Nascimento do meu filho</strong>, Romeo.
+            <FontAwesomeIcon icon={faHeart} className="heart-icon"/>
+            </p>
             <p>Encerramento do Casa em Caixa.</p>
             </TimelineContent>
         </TimelineItem>
