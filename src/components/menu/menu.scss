@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: auto;
   }
 
   .profile-container {
@@ -96,5 +97,6 @@
 
       @media (max-width: 600px) {
         display: inline-block;
+        margin-right: 5rem;
       }
     }
