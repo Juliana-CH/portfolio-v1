@@ -14,3 +14,11 @@
         font-weight: 300;
     }
 }
+
+@media (max-width: 600px) {
+
+    #about .aboutme-text {
+        columns: 1;
+        column-gap: 0;
+    }
+}
