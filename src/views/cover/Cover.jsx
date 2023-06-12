@@ -6,7 +6,7 @@ import "../../components/buttons/buttons.scss";
 function Cover() {
     return (
         <>
-        <section className="hello">
+        <section className="cover-container" id="cover">
             <div className="cover-presentation">
                 <h1>
                     <span className="salutation"> <Salutation /></span> EU SOU JULIANA

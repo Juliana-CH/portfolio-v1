@@ -1,4 +1,5 @@
 import * as React from 'react';
+import "./timeline.scss";
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -9,7 +10,6 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
-import "./timeline.scss";
 
 const useStyles = makeStyles({
     myCustomClass: {
@@ -23,7 +23,7 @@ export default function OppositeContentTimeline() {
     return (
 
     <>
-    <section id="time-line">
+    <section id="timeline">
 
         <div className="title-container">
             <h2 className="titles-first-word">Time<span className="titles-second-word">line</span></h2>
@@ -194,7 +194,7 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            <p>Mergulhada na <strong>maternidade</strong> e compartilhando nossas experiências em <a href= "naosaogemeos.com.br" target='blank'>Não São Gêmeos.</a></p>
+            <p>Mergulhada na <strong>maternidade</strong> e compartilhando em <a href= "naosaogemeos.com.br" target='blank'>Não São Gêmeos.</a></p>
             </TimelineContent>
         </TimelineItem>
 
@@ -294,7 +294,7 @@ export default function OppositeContentTimeline() {
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
             <p><strong>Pós-Graduada em UX/UI e Desenvolvimento Front-End</strong> (ESAT), Espanha.</p>
-            <p>Estágio em Front-End na startup AmFi.</p>
+            <p><strong>Estágio em Front-End</strong> na startup AmFi.</p>
             <div className="timeline-skills">
                 <h2 className="timeline-skills-item">React</h2>
                 <h2 className="timeline-skills-item">Next JS</h2>
@@ -308,4 +308,4 @@ export default function OppositeContentTimeline() {
     </section>
     </>
     );
-  }
+  };

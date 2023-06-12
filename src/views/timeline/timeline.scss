@@ -1,27 +1,46 @@
 @import "../../scss/titles";
 
-#time-line {
+#timeline {
     padding: var(--padding-size-h);
     padding-bottom: var(--padding-size-v);
     font-family: 'Sofia Sans';
-}
   
   .timeline-year {
-    font-size: var(--font-m);
-    color: var(--first-color);
-    font-weight: 900;
-    font-family: 'Sofia Sans';
+  font-size: var(--font-s);
+  color: var(--first-color);
+  font-weight: 900;
+  font-family: 'Sofia Sans';
   }
-  
-  .timeline-item-dot {
-    color: var(--first-color);
-  }
-  
+
   .timeline-item-text {
     display: inline-block;
     align-items: center;
     font-size: var(--font-xs);
   }
+
+  .timeline-skills-item {
+    background-color: var(--first-font-color);
+    color: var(--fourth-color);
+    margin-right: .4rem;
+    margin-top: .4rem;
+    border: none;
+    border-radius: 5px;
+    padding: .2rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    font-weight: 400;
+    font-size: var(--font-s);
+  }
+
+  .timeline-skills-item-2022 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: var(--font-xs);
+    margin-right: 1rem;
+    width: 60%; /* width: para dividir em colunas */
+    justify-content: flex-end;
+  }
+}
   
   .timeline-skills {
     display: flex;
@@ -37,28 +56,6 @@
     font-size: var(--font-xs);
     margin-right: .4rem;
     margin-top: .4rem;
-    justify-content: flex-end;
-  }
-
-  .timeline-skills-item {
-    background-color: var(--first-font-color);
-    color: var(--fourth-color);
-    margin-right: .4rem;
-    margin-top: .4rem;
-    border: none;
-    border-radius: 5px;
-    padding: .2rem;
-    padding-left: .6rem;
-    padding-right: .6rem;
-    font-weight: 400;
-  }
-
-  .timeline-skills-item-2022 {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: var(--font-xs);
-    margin-right: 1rem;
-    width: 60%; /* width: para dividir em colunas */
     justify-content: flex-end;
   }
 
