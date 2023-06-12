@@ -27,7 +27,7 @@ function Menu() {
               <a href="#about">Sobre mim</a>
               <a href="#skills">Habilidades</a>
               <a href="#projects">Projetos</a>
-              <a href="#contact">Contato</a>
+              <a href="#footer">Contato</a>
               <button className="menu__close" onClick={handleShowMenuClick}>
                 Fechar
               </button>
