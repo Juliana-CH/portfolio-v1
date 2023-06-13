@@ -7,6 +7,10 @@
   color: var(--second-font-color);
 }
 
+  .force-bg-color {
+    background-color: var(--first-color);
+  }
+
   .header-content {
     display: flex;
     align-items: center;
@@ -43,6 +47,7 @@
 
   .menu-content {
     display: flex;
+    background-color: var(--first-color);
     
   }
 

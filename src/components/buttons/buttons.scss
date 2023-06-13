@@ -21,6 +21,16 @@ button {
         &:hover {
             background-color: var(--third-color-assistant);
         }
+
+        a:link {
+            text-decoration: none;
+            color: inherit;
+        }
+    
+        a:visited {
+            text-decoration: none;
+            color: inherit;
+        }
     }
 
 
@@ -38,13 +48,22 @@ button {
         &:hover {
         background-color: var(--bg-hover);
         }
+
+        a:link {
+            text-decoration: none;
+            color: inherit;
+        }
+    
+        a:visited {
+            text-decoration: none;
+            color: inherit;
+        }
     }
 
     .show-menu {
-        background-color: var(--third-color-assistant);
-        color: var(--first-color);
+        background-color: var(--first-color);
+        color: var(--second-font-color);
         letter-spacing: 1px;
-        box-shadow: 0 0 .5em var(--third-color-assistant);
         border-radius: 5px;
         font-size: var(--font-xs);
         width: 4rem;
@@ -65,7 +84,7 @@ button {
     } 
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
     button {
         cursor: pointer;
@@ -110,10 +129,9 @@ button {
         }
     
         .show-menu {
-            background-color: var(--third-color-assistant);
-            color: var(--first-color);
+            background-color: var(--first-color);
+            color: var(--second-font-color);
             letter-spacing: 1px;
-            box-shadow: 0 0 .5em var(--third-color-assistant);
             border-radius: 5px;
             font-size: var(--font-xs);
             width: 4rem;

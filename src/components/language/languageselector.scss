@@ -6,17 +6,20 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
+    background-color: var(--first-color);
+
+    .selected-language {
+      font-size: var(--font-xs);
+      display: flex;
+      align-items: center;
+      background-color: var(--first-color);
+      border: none;
+      color: var(--fourth-color);
+      cursor: pointer;
+    }
   }
   
-  .selected-language {
-    font-size: var(--font-xs);
-    display: flex;
-    align-items: center;
-    background-color: var(--first-color);
-    border: none;
-    color: var(--fourth-color);
-    cursor: pointer;
-  }
+  
   
   .arrow-down {
     width: 0;

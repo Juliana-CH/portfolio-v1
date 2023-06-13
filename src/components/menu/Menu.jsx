@@ -42,7 +42,7 @@ function Menu() {
           <LanguageSelector />
         </div>
 
-          <div>
+          <div className="force-bg-color">
             <button onClick={handleShowMenuClick}>
             <FontAwesomeIcon icon={faBars} className="show-menu" />
             </button>
