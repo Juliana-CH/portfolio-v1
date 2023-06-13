@@ -1,4 +1,7 @@
-import { BrowserRouter as Router, Route, Routes, Outlet } from 'react-router-dom';
+import React from "react";
+import { I18nextProvider } from "react-i18next";
+import i18next from "i18next";
+import Translations from "../components/language/Translations";
 import Menu from "../components/menu/Menu";
 import Footer from "../components/footer/Footer";
 import Cover from "../views/cover/Cover";
@@ -8,16 +11,25 @@ import TimeLine from "../views/timeline/TimeLine";
 import Projects from "../views/projects/Projects";
 import './App.scss';
 
+i18next.init({
+  interpolation: { escapeValue: false },
+  resources: Translations,
+});
+
 function App() {
   return (
     <>
-      <Menu />
-      <Cover />
-      <About />
-      <Skills />
-      <TimeLine />
-      <Projects />
-      <Footer />
+    <I18nextProvider i18n={i18next}>
+      <div className="App">
+        <Menu />
+        <Cover />
+        <About />
+        <Skills />
+        <TimeLine />
+        <Projects />
+        <Footer />
+      </div>
+    </I18nextProvider>
     </>
   );
 }
