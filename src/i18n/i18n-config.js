@@ -339,7 +339,7 @@ const resources = {
             },
 
             timeline: {
-                'timel.ts1': 'Marketing Analyst',
+                'timel.ts1': 'Marketing Analyst ',
                 'timel.ts2': 'on the biggest TV channel in Brazil',
                 'timel.ts3': 'Office Package', 
                 'timel.ts4': 'English',

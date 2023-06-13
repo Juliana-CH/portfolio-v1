@@ -39,7 +39,7 @@ function Menu() {
           </div>
 
           <div className="force-bg-color">
-            <button onClick={handleShowMenuClick}>
+            <button className="force-bg-color" onClick={handleShowMenuClick}>
             <FontAwesomeIcon icon={faBars} className="show-menu" />
             </button>
           </div>
