@@ -1,6 +1,6 @@
 import * as React from 'react';
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import "./timeline.scss";
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -11,16 +11,19 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import "./timeline.scss";
 
 const useStyles = makeStyles({
     myCustomClass: {
         
     },
   });
+ 
 
 export default function OppositeContentTimeline() {
-    const classes = useStyles();
     const { t } = useTranslation();
+    const classes = useStyles();
+
 
     return (
 

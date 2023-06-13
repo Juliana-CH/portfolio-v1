@@ -21,7 +21,7 @@ i18next.init({
 function App() {
   return (
     <>
-    <Suspense fallback={<div>Loading...</div>}>
+   
       <I18nextProvider i18n={i18next}>
         <div className="App">
           <Menu />
@@ -33,7 +33,7 @@ function App() {
           <Footer />
         </div>
       </I18nextProvider>
-    </Suspense>
+
     </>
   );
 }

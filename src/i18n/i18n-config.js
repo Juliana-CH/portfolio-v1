@@ -150,7 +150,7 @@ const resources = {
             cover: {
                 's1': 'YO SOY JULIANA',
                 's2': 'Brasileña, residente en España y embarcada en un emocionante viaje de transición\
-                    profesional. Traigo mi experiencia como Administrador de Empresas hacia el desarrollo web\
+                    profesional. Traigo mi experiencia como Administradora de Empresas hacia el desarrollo web\
                     Front-End y centrado en proyectos llenos de propósito.',
                 's3': 'CONÓCEME',
             },
@@ -280,7 +280,7 @@ const resources = {
 
             cover: {
                 's1': 'I AM JULIANA',
-                's2': 'Brazilian, living in Spain and embarking on an exciting career transition journey.\
+                's2': 'Brazilian, living in Spain and going on an exciting career transition journey.\
                     I bring my background as a Business Administrator towards Front-End web development\
                     and focus on purposeful projects',
                 's3': 'KNOW ME',
@@ -398,16 +398,17 @@ const resources = {
         },
     },
 
+}
 
 i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'en',
+    lng: "en",
 
     interpolation: {
       escapeValue: false
     }
   })
-},
+
 export default i18n;
