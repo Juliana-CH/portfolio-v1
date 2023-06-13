@@ -55,7 +55,7 @@ function Skills() {
                 </div>
                 
                 <div className="center-btn">
-                    <button className="btn-cta">CONTATO</button>
+                    <button className="btn-cta"><a href="#footer">CONTATO</a></button>
                 </div>
                 
             </div>

@@ -15,7 +15,8 @@
   .timeline-item-text {
     display: inline-block;
     align-items: center;
-    font-size: var(--font-xs);
+    font-size: var(--font-s);
+    font-family: 'Sofia Sans';
   }
 
   .timeline-skills-item {
@@ -40,7 +41,7 @@
     width: 60%; /* width: para dividir em colunas */
     justify-content: flex-end;
   }
-}
+
   
   .timeline-skills {
     display: flex;
@@ -62,4 +63,12 @@
   .heart-icon {
     color: rgb(239, 100, 124);
   }
+ 
   
+  @media (max-width: 800px) {
+    .timeline-item-text {
+      font-size: var(--font-xs);
+      font-family: 'Sofia Sans';
+    }
+  }
+}

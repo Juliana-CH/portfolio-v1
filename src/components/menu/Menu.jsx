@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import LanguageSelector from "../language/LanguageSelector";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./menu.scss";
+
 
 function Menu() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -29,7 +32,7 @@ function Menu() {
               <a href="#projects">Projetos</a>
               <a href="#footer">Contato</a>
               <button className="menu__close" onClick={handleShowMenuClick}>
-                Fechar
+                X
               </button>
             </nav>
 
@@ -40,8 +43,8 @@ function Menu() {
         </div>
 
           <div>
-            <button className="show-menu" onClick={handleShowMenuClick}>
-              menu
+            <button onClick={handleShowMenuClick}>
+            <FontAwesomeIcon icon={faBars} className="show-menu" />
             </button>
           </div>
         

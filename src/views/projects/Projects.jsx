@@ -23,7 +23,8 @@ function Projects() {
                         <p>Calculadora para executar operações básicas de matemática.
                             Este projeto foi baseado na calculadora do sistema iOS.
                         </p>
-                        <button className="btn-blue">SAIBA MAIS</button>
+                        <button className="btn-blue"><a href="https://github.com/Juliana-CH/react-calculator" 
+                        target="blank">SAIBA MAIS</a></button>
                     </div>
                 </div>
             </div>
@@ -60,7 +61,7 @@ function Projects() {
                         <p>Sistema para controle de produtividade, inclusão de tarefas,
                             alteração de status e prazos.
                         </p>
-                        <button className="btn-blue">QUERO VER!</button>
+                        <button className="btn-blue">SAIBA MAIS</button>
                     </div>
                 </div>
             </div>
@@ -75,7 +76,8 @@ function Projects() {
                             quanto em design, mas tenho orgulho da 
                             minha evolução nesses últimos 8 meses!
                         </p>
-                        <button className="btn-blue">ME CONHEÇA :)</button>
+                        <button className="btn-blue"><a href="https://github.com/Juliana-CH/aboutme-juliana" 
+                        target="blank">DETALHES</a></button>
                     </div>
 
                     <div className="project-container-image">
