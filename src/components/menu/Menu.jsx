@@ -1,11 +1,10 @@
-import React, { useState } from "react";
-import { useTranslation, Trans } from "react-i18next";
+import React, { useState, Suspense } from "react";
+import { useTranslation } from "react-i18next";
 import Translations from "../language/Translations";
 import LanguageSelector from "../language/LanguageSelector";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./menu.scss";
-
 
 function Menu() {
   const { t } = useTranslation();
@@ -28,18 +27,12 @@ function Menu() {
           </div>
 
           <div className="menu-content">
-
-            <nav className={`menu ${showMobileMenu ? "menu--show" : ""}`}>
-              <a href="#cover">
-                <Trans>{t("menu.home")}</Trans></a>
-              <a href="#about">
-                <Trans>{t("menu.about")}</Trans></a>
-              <a href="#skills">
-                <Trans>{t("menu.skills")}</Trans></a>
-              <a href="#projects">
-                <Trans>{t("menu.projects")}</Trans></a>
-              <a href="#footer">
-                <Trans>{t("menu.footer")}</Trans></a>
+              <nav className={`menu ${showMobileMenu ? "menu--show" : ""}`}>
+              <a href="#cover">{t("menu.home")}</a>
+              <a href="#about">{t("menu.about")}</a>
+              <a href="#skills">{t("menu.skills")}</a>
+              <a href="#projects">{t("menu.projects")}</a>
+              <a href="#footer">{t("menu.footer")}</a>
               <button className="menu__close" onClick={handleShowMenuClick}>
                 X
               </button>
