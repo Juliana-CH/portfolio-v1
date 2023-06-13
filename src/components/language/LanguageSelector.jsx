@@ -1,47 +1,37 @@
-import React, { useState } from "react";
-import "./languageSelector.scss";
+import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import './languageSelector.scss';
 
 function LanguageSelector() {
-  const [language, setLanguage] = useState("ES");
-  const [showLanguageOptions, setShowLanguageOptions] = useState(false);
+  const { i18n } = useTranslation();
+  const language = i18n.language;
 
   const handleLanguageChange = (newLanguage) => {
-    setLanguage(newLanguage);
-  };
-
-  const handleShowLanguageOptions = () => {
-    setShowLanguageOptions(!showLanguageOptions);
+    i18n.changeLanguage(newLanguage);
   };
 
   return (
-    <div className="language-menu">
-      <button className="selected-language" onClick={handleShowLanguageOptions}>
-        {language} <span className="arrow-down"></span>
+    <div className='language-options'>
+      <button
+        className={`language-option ${language === 'es' ? 'selected' : ''}`}
+        onClick={() => handleLanguageChange('es')}
+      >
+        Español
       </button>
-      {showLanguageOptions && (
-        <div className="language-options">
-          <button
-            className={`language-option ${language === "ES" ? "selected" : ""}`}
-            onClick={() => handleLanguageChange("ES")}
-          >
-            ES
-          </button>
 
-          <button
-            className={`language-option ${language === "EN" ? "selected" : ""}`}
-            onClick={() => handleLanguageChange("EN")}
-          >
-            EN
-          </button>
+      <button
+        className={`language-option ${language === 'en' ? 'selected' : ''}`}
+        onClick={() => handleLanguageChange('en')}
+      >
+        English
+      </button>
 
-          <button
-            className={`language-option ${language === "PT-BR" ? "selected" : ""}`}
-            onClick={() => handleLanguageChange("PT-BR")}
-          >
-            PT-BR
-          </button>
-        </div>
-      )}
+      <button
+        className={`language-option ${language === 'pt' ? 'selected' : ''}`}
+        onClick={() => handleLanguageChange('pt')}
+      >
+        Português
+      </button>
     </div>
   );
 }

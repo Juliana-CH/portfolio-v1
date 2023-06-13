@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useTranslation } from "react-i18next";
 import "./timeline.scss";
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
@@ -19,6 +20,7 @@ const useStyles = makeStyles({
 
 export default function OppositeContentTimeline() {
     const classes = useStyles();
+    const { t } = useTranslation();
 
     return (
 
@@ -43,10 +45,10 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            <strong>Analista de Marketing</strong> no maior canal de TV do Brasil.
+            <strong>{t("timel.ts1")}Analista de Marketing</strong>{t("timel.ts2")}no maior canal de TV do Brasil.
             <div className="timeline-skills">
-                <h2 className="timeline-skills-item">Pacote Office</h2>
-                <h2 className="timeline-skills-item">Inglês</h2>
+                <h2 className="timeline-skills-item">{t("timel.ts3")}Pacote Office</h2>
+                <h2 className="timeline-skills-item">{t("timel.ts4")}Inglês</h2>
             </div>
             </TimelineContent>
         </TimelineItem>
@@ -63,12 +65,12 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            Formatura em <strong>Administração de Empresas </strong> 
+            Formatura em {t("timel.ts")}<strong>{t("timel.ts6")}Administração de Empresas </strong> 
             - Universidade do Estado de Santa Catarina (UDESC/ ESAG), 
             Florianópolis, Brasil.
             <div className="timeline-skills-opposite">
-                <h2 className="timeline-skills-item">Orçamento BZ</h2>
-                <h2 className="timeline-skills-item">Microsoft CRM</h2>
+                <h2 className="timeline-skills-item">{t("timel.ts7")}Orçamento BZ</h2>
+                <h2 className="timeline-skills-item">{t("timel.ts8")}Microsoft CRM</h2>
             </div>
             </TimelineContent>
         </TimelineItem>
@@ -85,10 +87,10 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            <p><strong>Mudança</strong> para São Paulo.</p>
-            <p><strong>Analista de Planejamento</strong> Grupo RBS, veículo revista, São Paulo, Brasil.</p>
+            <p><strong>{t("timel.ts9")}Mudança</strong>{t("timel.ts10")} para São Paulo.</p>
+            <p><strong>Analista de Planejamento{t("timel.ts11")}</strong> {t("timel.ts12")}Grupo RBS, São Paulo, Brasil.</p>
             <div className="timeline-skills">
-                <h2 className="timeline-skills-item">Excel avançado</h2>
+                <h2 className="timeline-skills-item">{t("timel.ts13")}Excel avançado</h2>
             </div>
             </TimelineContent>
         </TimelineItem>
@@ -105,13 +107,13 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            <p><strong>Pós-Graduada em Inteligência de Mercado</strong> - Fundação Instituto de Administração (FIA), São Paulo, Brasil.</p>
-            <p><strong>Promovida à Coordenadora de Negócios</strong> no Grupo RBS.</p>
-            <p>Retorno para Santa Catarina.</p>
+            <p><strong>{t("timel.ts14")}Pós-Graduada em Inteligência de Mercado</strong> - {t("timel.ts15")}Fundação Instituto de Administração (FIA), São Paulo, Brasil.</p>
+            <p><strong>{t("timel.ts16")}Promovida à Coordenadora de Negócios</strong> no Grupo RBS.</p>
+            <p>{t("timel.ts17")}Retorno para Santa Catarina.</p>
             <div className="timeline-skills-opposite">
                 <h2 className="timeline-skills-item">KPI's</h2>
-                <h2 className="timeline-skills-item">Gestão de Pessoas</h2>
-                <h2 className="timeline-skills-item">Avaliação de Desempenho</h2>
+                <h2 className="timeline-skills-item">{t("timel.ts18")}Gestão de Pessoas</h2>
+                <h2 className="timeline-skills-item">{t("timel.ts19")}Avaliação de Desempenho</h2>
             </div>
             </TimelineContent>
         </TimelineItem>
@@ -128,13 +130,13 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            <p><strong>Casamento</strong> com João. 
+            <p><strong>Casamento com {t("timel.ts20")}</strong> João. 
             <FontAwesomeIcon icon={faHeart} className="heart-icon"/>
             </p>
-            <p><strong>Promovida à Executiva de Contas</strong> no maior canal de televisão do Brasil (TV Globo), 
+            <p><strong>{t("timel.ts21")}Promovida à Executiva de Contas</strong> {t("timel.ts22")}no maior canal de televisão do Brasil (TV Globo), 
                 filial Santa Catarina, Brasil.</p>
             <div className="timeline-skills">
-                <h2 className="timeline-skills-item">Venda B2B</h2>
+                <h2 className="timeline-skills-item">{t("timel.ts23")}Venda B2B</h2>
             </div>
             </TimelineContent>
         </TimelineItem>
@@ -151,11 +153,11 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            Pedi demissão e iniciei meu <strong>próprio negócio</strong>, Casa em Caixa, 
+            {t("timel.ts24")}Pedi demissão e iniciei meu <strong>{t("timel.ts25")}próprio negócio</strong>{t("timel.ts26")}, Casa em Caixa, 
             um e-commerce de produtos para organização da casa.
             <div className="timeline-skills-opposite">
-                <h2 className="timeline-skills-item">Venda B2C</h2>
-                <h2 className="timeline-skills-item">Compras</h2>
+                <h2 className="timeline-skills-item">{t("timel.ts27")}Venda B2C</h2>
+                <h2 className="timeline-skills-item">{t("timel.ts28")}Compras</h2>
             </div>
             </TimelineContent>
         </TimelineItem>
@@ -172,12 +174,12 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            <p>Apoio na abertura de uma agência de publicidade, mantendo meu negócio.</p>
-            <p><strong>Nascimento da minha filha</strong>, Maria Antônia.
+            <p>{t("timel.ts29")}Apoio na abertura de uma agência de publicidade, mantendo meu negócio.</p>
+            <p><strong>{t("timel.ts30")}Nascimento da minha filha</strong>, Maria Antônia.
             <FontAwesomeIcon icon={faHeart} className="heart-icon"/>
             </p>
             <div className="timeline-skills">
-                <h2 className="timeline-skills-item">Plano de Negócios</h2>
+                <h2 className="timeline-skills-item">{t("timel.ts31")}Plano de Negócios</h2>
             </div>
             </TimelineContent>
         </TimelineItem>
@@ -194,7 +196,7 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            <p>Mergulhada na <strong>maternidade</strong> e compartilhando em <a href= "naosaogemeos.com.br" target='blank'>Não São Gêmeos.</a></p>
+            <p>{t("timel.ts32")}Mergulhada na <strong>{t("timel.ts33")}maternidade</strong> {t("timel.ts34")}e compartilhando em <a href= "naosaogemeos.com.br" target='blank'>Não São Gêmeos.</a></p>
             </TimelineContent>
         </TimelineItem>
 
@@ -210,9 +212,9 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            <p>Retomei o projeto Casa em Caixa, adicionei serviços e educação em organização.</p>
+            <p>{t("timel.ts35")}Retomei o projeto Casa em Caixa, adicionei serviços e educação em organização.</p>
             <div className="timeline-skills">
-                <h2 className="timeline-skills-item">Gestão do tempo</h2>
+                <h2 className="timeline-skills-item">{t("timel.ts36")}Gestão do tempo</h2>
             </div>
             </TimelineContent>
         </TimelineItem>
@@ -229,10 +231,10 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            <p><strong>Nascimento do meu filho</strong>, Romeo.
+            <p><strong>{t("timel.ts37")}Nascimento do meu filho</strong>, Romeo.
             <FontAwesomeIcon icon={faHeart} className="heart-icon"/>
             </p>
-            <p>Encerramento do Casa em Caixa.</p>
+            <p>{t("timel.ts38")}Encerramento do Casa em Caixa.</p>
             </TimelineContent>
         </TimelineItem>
 
@@ -248,8 +250,8 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            <p>Mergulhada na maternidade.</p>
-            <p>Início da pandemia. Foco no desenvolvimento dos meus filhos!</p>
+            <p>{t("timel.ts39")}Mergulhada na maternidade.</p>
+            <p>{t("timel.ts40")}Início da pandemia. Foco no desenvolvimento dos meus filhos!</p>
             </TimelineContent>
         </TimelineItem>
 
@@ -265,11 +267,12 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            <p><strong>Mudança</strong> para Valencia, <strong>Espanha</strong>, <strong>adaptação</strong> da família à nova cultura.</p>
-            <p>Início <strong>Pós-Graduação em UX/UI e Desenvolvimento Front-End</strong> (ESAT), Espanha.</p>
+            <p><strong>Mudança{t("timel.ts41")}</strong> {t("timel.ts42")}para Valencia, <strong>{t("timel.ts43")}Espanha</strong>
+            , <strong>{t("timel.ts44")}adaptação</strong>{t("timel.ts45")} da família à nova cultura.</p>
+            <p>Início {t("timel.ts46")}<strong>{t("timel.ts47")}Pós-Graduação em UX/UI e Desenvolvimento Front-End</strong> (ESAT), Espanha.{t("timel.ts48")}</p>
             <div className="timeline-skills-opposite">
                 <div className="timeline-skills-item-2022">
-                    <h2 className="timeline-skills-item">Espanhol</h2>
+                    <h2 className="timeline-skills-item">{t("timel.ts49")}Espanhol</h2>
                     <h2 className="timeline-skills-item">Figma</h2>
                     <h2 className="timeline-skills-item">CSS/ SASS</h2>
                     <h2 className="timeline-skills-item">HTML</h2>
@@ -293,8 +296,8 @@ export default function OppositeContentTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent className="timeline-item-text">
-            <p><strong>Pós-Graduada em UX/UI e Desenvolvimento Front-End</strong> (ESAT), Espanha.</p>
-            <p><strong>Estágio em Front-End</strong> na startup AmFi.</p>
+            <p><strong>{t("timel.ts50")}Pós-Graduada em UX/UI e Desenvolvimento Front-End</strong> (ESAT), Espanha{t("timel.ts51")}.</p>
+            <p><strong>{t("timel.ts52")}Estágio em Front-End</strong> na startup AmFi.{t("timel.ts53")}</p>
             <div className="timeline-skills">
                 <h2 className="timeline-skills-item">React</h2>
                 <h2 className="timeline-skills-item">Next JS</h2>

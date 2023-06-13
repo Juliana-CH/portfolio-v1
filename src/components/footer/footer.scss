@@ -16,6 +16,16 @@ footer {
   flex-direction: column;
 }
 
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-title {
+  font-size: var(--font-m);
+  font-weight: 500;
+}
+
 label {
   font-size: var(--font-s);
   display: flex;
@@ -27,21 +37,17 @@ input {
   border-radius: 5px;
   border: none;
   width: 20rem;
-  height: 1.5rem;
+  height: 2rem;
 }
 
-.message-container {
-  height: 6rem;
+textarea {
+  border-radius: 5px;
+  width: 20rem;
+  border: none;
 }
 
-.form {
-  display: flex;
-  justify-content: center;
-}
-
-.form-title {
-  font-size: var(--font-m);
-  font-weight: 500;
+.button-container-form {
+  text-align: right;
 }
 
 .footer-social {
@@ -60,7 +66,6 @@ input {
   text-align: center;
   padding-bottom: 2rem;
   font-size: var(--font-s);
-  border-top: 1px solid var(--second-font-color);
 
 }
 
@@ -70,6 +75,14 @@ input {
   list-style-type: none;
   justify-content: center;
   padding-top: 1rem;
+}
+
+.language-options {
+  border-top: 1px solid var(--second-font-color);
+}
+
+.language-option {
+  padding: 1rem;
 }
   
   ul,

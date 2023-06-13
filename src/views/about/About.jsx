@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import Translations from "../../components/language/Translations";
 import "./about.scss";
 
 

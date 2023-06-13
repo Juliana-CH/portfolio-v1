@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import LanguageSelector from "../language/LanguageSelector";
 import "../footer/footer.scss";
 
 function Footer() {
@@ -20,8 +21,9 @@ function Footer() {
                         <input id="email" type="email"></input>
 
                         <label htmlFor="message">Mensagem</label>
-                        <input id="message" className="message-container" type="text"></input>
-                        <div>
+                        <textarea id="message" className="message-container" type="text" rows={6}></textarea>
+                        
+                        <div className="button-container-form">
                             <button className="send-btn">Enviar</button>
                         </div>
 
@@ -41,6 +43,10 @@ function Footer() {
                             </li>
                         </a>
                     </ul>
+
+                    <div>
+                        <LanguageSelector />
+                    </div>
 
                     <div className="footer-container-down">
 

@@ -1,12 +1,16 @@
+import React from "react";
+import { useTranslation } from "react-i18next";
 import "./projects.scss";
 
 function Projects() {
+    const { t } = useTranslation();
     return (
         <>
         <section id="projects">
 
             <div className="title-container">
-                <h2 className="titles-second-word-projects">Meus<span className="titles-first-word-projects">Projetos</span></h2>
+                <h2 className="titles-second-word-projects">{t("projects.pfirstw")}
+                <span className="titles-first-word-projects">{t("projects.psecondw")}</span></h2>
             </div>
 
             <div className="side-image-content">
@@ -19,12 +23,11 @@ function Projects() {
                     </div>
 
                     <div className="project-container-text">
-                        <h2 className="project-title">Calculadora</h2>
-                        <p>Calculadora para executar operações básicas de matemática.
-                            Este projeto foi baseado na calculadora do sistema iOS.
+                        <h2 className="project-title">{t("projects.ps1")}</h2>
+                        <p>{t("projects.ps2")}
                         </p>
                         <button className="btn-blue"><a href="https://github.com/Juliana-CH/react-calculator" 
-                        target="blank">SAIBA MAIS</a></button>
+                        target="blank">{t("projects.ps3")}</a></button>
                     </div>
                 </div>
             </div>
@@ -33,12 +36,10 @@ function Projects() {
                 <div className="project-container-right">
 
                     <div className="project-container-text">
-                        <h2 className="project-title">Calculadora IMC</h2>
-                        <p>Calculadora para identificar o Índice de Massa Corpórea
-                            (IMC), um dos fatores usados por profissionais da saúde para
-                            identificar sobrepeso.
+                        <h2 className="project-title">{t("projects.ps4")}</h2>
+                        <p>{t("projects.ps5")}
                         </p>
-                        <button className="btn-blue">DETALHES</button>
+                        <button className="btn-blue">{t("projects.ps6")}</button>
                     </div>
 
                     <div className="project-container-image">
@@ -57,11 +58,10 @@ function Projects() {
                     </div>
 
                     <div className="project-container-text">
-                        <h2 className="project-title">Lista de Tarefas</h2>
-                        <p>Sistema para controle de produtividade, inclusão de tarefas,
-                            alteração de status e prazos.
+                        <h2 className="project-title">{t("projects.ps7")}</h2>
+                        <p>{t("projects.ps8")}
                         </p>
-                        <button className="btn-blue">SAIBA MAIS</button>
+                        <button className="btn-blue">{t("projects.ps3")}</button>
                     </div>
                 </div>
             </div>
@@ -70,14 +70,11 @@ function Projects() {
                 <div className="project-container-right">
 
                     <div className="project-container-text">
-                        <h2 className="project-title">Página de 'About me'</h2>
-                        <p>Meu primeiro projeto, feito com HTML5, CSS e JS.
-                            Muitas melhorias podem ser feitas, tanto em código,
-                            quanto em design, mas tenho orgulho da 
-                            minha evolução nesses últimos 8 meses!
+                        <h2 className="project-title">{t("projects.ps9")}</h2>
+                        <p>{t("projects.ps10")}
                         </p>
                         <button className="btn-blue"><a href="https://github.com/Juliana-CH/aboutme-juliana" 
-                        target="blank">DETALHES</a></button>
+                        target="blank">{t("projects.ps6")}</a></button>
                     </div>
 
                     <div className="project-container-image">

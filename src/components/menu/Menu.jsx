@@ -1,7 +1,5 @@
-import React, { useState, Suspense } from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import Translations from "../language/Translations";
-import LanguageSelector from "../language/LanguageSelector";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./menu.scss";
@@ -32,17 +30,13 @@ function Menu() {
               <a href="#about">{t("menu.about")}</a>
               <a href="#skills">{t("menu.skills")}</a>
               <a href="#projects">{t("menu.projects")}</a>
-              <a href="#footer">{t("menu.footer")}</a>
+              <a href="#footer">{t("menu.contact")}</a>
               <button className="menu__close" onClick={handleShowMenuClick}>
                 X
               </button>
             </nav>
 
           </div>
-
-        <div>
-          <LanguageSelector />
-        </div>
 
           <div className="force-bg-color">
             <button onClick={handleShowMenuClick}>

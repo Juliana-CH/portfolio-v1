@@ -1,6 +1,6 @@
-import ReactDOM from "react-dom";
-import App from "./App/App";
-
+import ReactDOM from 'react-dom';
+import App from './App/App';
+import './i18n/i18n-config';
 
 ReactDOM.render(<App />, document.getElementById('root')); //Suporta versão React 17.
 
