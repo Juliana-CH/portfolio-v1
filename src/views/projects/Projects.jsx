@@ -18,7 +18,7 @@ function Projects() {
                 <div className="project-container-left">
 
                     <div className="project-container-image">
-                        <img className="project-image" src="/images/calculator.png" 
+                        <img className="project-image" src="/images/calculator.jpg" 
                         alt="Projeto Calculadora, fundo preto e botões em cinza e laranja."/>
                     </div>
 
