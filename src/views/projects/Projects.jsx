@@ -18,7 +18,7 @@ function Projects() {
                 <div className="project-container-left">
 
                     <div className="project-container-image">
-                        <img className="project-image" src="./images/calculator.png" 
+                        <img className="project-image" src="/images/calculator.png" 
                         alt="Projeto Calculadora, fundo preto e botões em cinza e laranja."/>
                     </div>
 
@@ -43,8 +43,8 @@ function Projects() {
                     </div>
 
                     <div className="project-container-image">
-                        <img src="https://comunidad.retorn.com/wp-content/uploads/cache/2018/09/gatitos/3008811440.jpg"
-                        alt="Gatito Fofito"></img>
+                        <img src="/images/calculator-imc.png"
+                        alt="Ilustração de pessoa com pés sobre a balança."></img>
                     </div>
                 </div>
             </div>
@@ -53,8 +53,8 @@ function Projects() {
                 <div className="project-container-left">
 
                     <div className="project-container-image">
-                        <img src="https://comunidad.retorn.com/wp-content/uploads/cache/2018/09/gatitos/3008811440.jpg"
-                        alt="Gatito Fofito"></img>
+                        <img src="/images/todolist.jpg"
+                        alt="Imagem de uma lista de tarefas."></img>
                     </div>
 
                     <div className="project-container-text">
@@ -78,7 +78,7 @@ function Projects() {
                     </div>
 
                     <div className="project-container-image">
-                    <img className="project-image" src="./images/about-me.png" 
+                    <img className="project-image" src="/images/about-me.png" 
                     alt="Imagem da capa do primeiro projeto feito por mim. Fundo lilás com meu nome escrito 
                     em roxo e em letra cursiva."/>
                     </div>
