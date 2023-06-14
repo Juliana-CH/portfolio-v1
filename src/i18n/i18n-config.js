@@ -134,6 +134,13 @@ const resources = {
                 'timel.ts53': ' na startup AmFi.',
             },
 
+            footer: {
+                'Contact.s1': 'Contato',
+                'Message.s2': 'Mensagem',
+                'Send-msg.s3': 'Enviar',
+                'Name.s4': 'Nome',
+            },
+
         },
     },
 
@@ -265,6 +272,13 @@ const resources = {
                 'timel.ts52': 'Prácticas en Front-End',
                 'timel.ts53': ' en la startup AmFi',
             },
+
+            footer: {
+                'Contact.s1': 'Contacto',
+                'Message.s2': 'Mensaje',
+                'Send-msg.s3': 'Enviar',
+                'Name.s4': 'Nombre',
+            },
         },
     },    
 
@@ -394,6 +408,13 @@ const resources = {
                 'timel.ts52': 'Internship in Front-End',
                 'timel.ts53': ' at AmFi startup',
                 
+            },
+
+            footer: {
+                'Contact.s1': 'Contact',
+                'Message.s2': 'Message',
+                'Send-msg.s3': 'Send',
+                'Name.s4': 'Name',
             },
         },
     },

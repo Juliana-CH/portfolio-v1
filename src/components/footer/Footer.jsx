@@ -1,9 +1,12 @@
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import LanguageSelector from "../language/LanguageSelector";
 import "../footer/footer.scss";
 
 function Footer() {
+    const { t } = useTranslation();
     return (
         <section id="footer">
             <footer className="footer-container">
@@ -12,19 +15,19 @@ function Footer() {
 
                     <form action="#"> {/* buscar solução para receber direto no meu email */}
 
-                        <h5 className="form-title">CONTATO</h5>
+                        <h5 className="form-title">{t("footer.Contact.s1")}</h5>
 
-                        <label htmlFor="name">Nome</label>
+                        <label htmlFor="name">{t("footer.Name.s4")}</label>
                         <input id="name" type="text"></input>
 
                         <label htmlFor="email">E-mail</label>
                         <input id="email" type="email"></input>
 
-                        <label htmlFor="message">Mensagem</label>
+                        <label htmlFor="message">{t("footer.Message.s2")}</label>
                         <textarea id="message" className="message-container" type="text" rows={6}></textarea>
                         
                         <div className="button-container-form">
-                            <button className="send-btn">Enviar</button>
+                            <button className="send-btn">{t("footer.Send-msg.s3")}</button>
                         </div>
 
                     </form>
