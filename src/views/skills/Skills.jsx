@@ -44,7 +44,7 @@ function Skills() {
                         <h3>{t("skills.skills.ss10")}</h3>
                     </div>
                     <div className="skill-item">
-                        <h3>{t("skills.skills.s11")}</h3>
+                        <h3>{t("skills.skills.ss11")}</h3>
                     </div>
                     <div className="skill-item">
                         <h3>{t("skills.skills.ss12")}</h3>
