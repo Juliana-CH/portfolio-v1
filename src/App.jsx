@@ -9,7 +9,7 @@ import About from "./views/about/About";
 import Skills from "./views/skills/Skills";
 import TimeLine from "./views/timeline/TimeLine";
 import Projects from "./views/projects/Projects";
-import './App.scss';
+//import './App.scss';
 
 i18next.init({
   interpolation: { escapeValue: false },
