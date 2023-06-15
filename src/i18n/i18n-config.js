@@ -78,7 +78,7 @@ const resources = {
             },
 
             timeline: {
-                'timel.ts1': 'Analista de Marketing',
+                'timel.ts1': 'Analista de Marketing ',
                 'timel.ts2': 'no maior canal de TV do Brasil.',
                 'timel.ts3': 'Pacote Office', 
                 'timel.ts4': 'Inglês',
@@ -217,15 +217,15 @@ const resources = {
             },
 
             timeline: {
-                'timel.ts1': 'Analista de Marketing',
+                'timel.ts1': 'Analista de Marketing ',
                 'timel.ts2': 'en el mayor canal de TV de Brasil',
                 'timel.ts3': 'Paquete Office', 
                 'timel.ts4': 'Inglés',
-                'timel.ts5': 'Graduación en',
+                'timel.ts5': 'Graduación en ',
                 'timel.ts6': 'Administración de Empresas',
                 'timel.ts7': '- Universidade do Estado de Santa Catarina (UDESC/ ESAG), Florianópolis, Brasil',
                 "timel.ts8": "Presupuesto de BC",
-                'timel.ts9': 'Me trasladé',
+                'timel.ts9': 'Me trasladé ',
                 'timel.ts10': 'a São Paulo',
                 'timel.ts11': 'Analista de planificación',
                 'timel.ts12': 'Grupo RBS, São Paulo, Brasil',
