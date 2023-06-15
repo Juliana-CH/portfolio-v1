@@ -20,7 +20,7 @@ const useStyles = makeStyles({
   });
  
 
-export default function OppositeContentTimeline() {
+function OppositeContentTimeline() {
     const { t } = useTranslation();
     const classes = useStyles();
 
@@ -312,3 +312,4 @@ export default function OppositeContentTimeline() {
     </>
     );
   };
+  export default OppositeContentTimeline
